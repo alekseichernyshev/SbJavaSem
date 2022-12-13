@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a81f5221-1f86-4442-adda-ee6c965c1dc3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/week1/Task10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
