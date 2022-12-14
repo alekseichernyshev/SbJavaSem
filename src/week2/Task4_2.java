@@ -22,6 +22,8 @@ public class Task4_2 {
             case 4:
                 System.out.println("Economy " + 3800 + rubleSignature);
                 break;
+            default:
+                System.out.println("Неизвестный тип номера! Пожалуйста введите допустимое значение от 1 до четырёх.");
         }
 
 
