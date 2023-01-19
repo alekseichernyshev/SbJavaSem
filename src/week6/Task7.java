@@ -14,6 +14,7 @@ public class Task7 {
         }
         System.out.println("Factorial (FOR LOOP): " + result);
         System.out.println("Factorial (FOR RECOURSION): " + Factorial(n));
+        System.out.println("Factorial (FOR RECOURSIONTAIL): " + FactorialTail(n, 1));
     }
 
     public static int Factorial(int n){
@@ -21,6 +22,14 @@ public class Task7 {
             return 1;
         }else {
             return n * Factorial(n-1);
+        }
+    }
+
+    public static int FactorialTail(int n, int result){
+        if(n<=1){
+            return 1;
+        }else {
+            return n * FactorialTail(n-1, n*result);
         }
     }
 }
