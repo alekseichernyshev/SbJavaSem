@@ -27,7 +27,7 @@ public class Task7 {
 
     public static int FactorialTail(int n, int result){
         if(n<=1){
-            return 1;
+            return result;
         }else {
             return n * FactorialTail(n-1, n*result);
         }
