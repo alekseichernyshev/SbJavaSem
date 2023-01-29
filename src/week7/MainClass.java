@@ -6,6 +6,7 @@ import week7.Task2.Thermometr;
 import week7.Task3.Robot;
 import week7.Task4.FieldValidator;
 import week7.Task5.SimpleStack;
+import week7.Task7.Account;
 
 public class MainClass {
     public static void main(String[] args) {
@@ -37,13 +38,26 @@ public class MainClass {
 //        System.out.println(FieldValidator.validatePhone("5433456787653445"));
 //        System.out.println(FieldValidator.validateEmail("qwerty@email.com"));
         // Task5
-        SimpleStack stack = new SimpleStack(3);
-        System.out.println(stack.isEmpty());
-        stack.push(1);
-        stack.push(2);
-        stack.push(3);
-        System.out.println(stack.isFull());
-        System.out.println(stack.pop());
+//        SimpleStack stack = new SimpleStack(3);
+//        System.out.println(stack.isEmpty());
+//        stack.push(1);
+//        stack.push(2);
+//        stack.push(3);
+//        System.out.println(stack.isFull());
+//        System.out.println(stack.pop());
+    // Task7
+
+        Account.Builder accountBuilder = Account.newBuilder();
+        // какие то действия
+        accountBuilder.setToken("Это токен!!!");
+        // ещё какие то действия
+        accountBuilder.setUserId("123");
+
+        Account account = accountBuilder.build();
+        account.set();
+        account.setW();
+
+        Account account2 = Account.newBuilder().setToken("asd").setUserId("345").build();
     }
 
 }
