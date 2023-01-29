@@ -5,6 +5,7 @@ import week7.Task2.TempType;
 import week7.Task2.Thermometr;
 import week7.Task3.Robot;
 import week7.Task4.FieldValidator;
+import week7.Task5.SimpleStack;
 
 public class MainClass {
     public static void main(String[] args) {
@@ -33,8 +34,16 @@ public class MainClass {
 //        robot.turnRight();
 //        robot.printCoordinates();
         //Task4
-        System.out.println(FieldValidator.validatePhone("5433456787653445"));
-        System.out.println(FieldValidator.validateEmail("qwerty@email.com"));
+//        System.out.println(FieldValidator.validatePhone("5433456787653445"));
+//        System.out.println(FieldValidator.validateEmail("qwerty@email.com"));
+        // Task5
+        SimpleStack stack = new SimpleStack(3);
+        System.out.println(stack.isEmpty());
+        stack.push(1);
+        stack.push(2);
+        stack.push(3);
+        System.out.println(stack.isFull());
+        System.out.println(stack.pop());
     }
 
 }
