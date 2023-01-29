@@ -54,8 +54,7 @@ public class MainClass {
         accountBuilder.setUserId("123");
 
         Account account = accountBuilder.build();
-        account.set();
-        account.setW();
+
 
         Account account2 = Account.newBuilder().setToken("asd").setUserId("345").build();
     }
