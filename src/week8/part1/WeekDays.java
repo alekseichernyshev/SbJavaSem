@@ -5,7 +5,7 @@ public enum WeekDays {
     TUESDAY(2, "вторник"),
     WEDNESDAY(3, "среда"),
     THURSDAY(4, "четверг"),
-    FRIDAY(5, "пятницв"),
+    FRIDAY(5, "пятница"),
     SATURDAY(6, "суббота"),
     SUNDAY(7, "воскресенье");
 
